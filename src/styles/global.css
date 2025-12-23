@@ -1,0 +1,105 @@
+/* ------------------------------ */
+/* Global Reset                   */
+/* ------------------------------ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------------ */
+/* Base Typography & Layout       */
+/* ------------------------------ */
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  background: #f4f5f7;
+  color: #1a1a1a;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Improve default text rendering */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0.75rem;
+}
+
+/* ------------------------------ */
+/* Layout Helpers                 */
+/* ------------------------------ */
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* A subtle card style for content blocks */
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.5rem;
+}
+
+/* ------------------------------ */
+/* Links                          */
+/* ------------------------------ */
+
+a {
+  color: #0057d8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #003c99;
+}
+
+/* ------------------------------ */
+/* Buttons                        */
+/* ------------------------------ */
+
+button {
+  font: inherit;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #0057d8;
+  color: #fff;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #003c99;
+}
+
+/* ------------------------------ */
+/* Page Wrapper                   */
+/* ------------------------------ */
+
+.page {
+  padding: 2rem;
+}
