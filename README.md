@@ -8,7 +8,7 @@ StudyHub Web is the web version of StudyHub, built with React and JavaScript/JSX
   - Calendar tasks save locally to your device/browser  
   - Listify tasks save to the cloud (requires login/signup)  
 - Create notes that save locally (or use Listify for cloud‑saved notes)  
-- AI studying (coming soon — includes a lock mode to discourage AI use during tests, plus optional usage logs for teachers, which is coming soon...)
+- AI studying (coming soon...)
 
 ## Installation
 StudyHub Web runs in the browser — no downloads needed.  
